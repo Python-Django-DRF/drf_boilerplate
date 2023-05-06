@@ -29,7 +29,7 @@ SECRET_KEY = getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv("DEBUG")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -46,7 +46,7 @@ DJANGO_APPS = [
 ]
 
 CUSTOM_APPS = [
-
+    "apps.common.apps.CommonConfig",
 ]
 
 THIRD_PARTY_APPS = [
