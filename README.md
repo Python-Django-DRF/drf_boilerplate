@@ -1,6 +1,6 @@
 ### DRF boilerplate
 
-###Foydalanish:
+### Foydalanish:
 &emsp;1. ```git clone url```<br />
 &emsp;2. ```virtualenv venv```<br />
 &emsp;3. ```venv\Scripts\activate```<br />
